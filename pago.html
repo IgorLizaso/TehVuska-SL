@@ -12,34 +12,35 @@
 
 <body>
     <div class="wrapper">
-        <h2>Forma de pago</h2>
-        <form action="" method="POST"></form>
+        <h2>Forms de pago</h2>
+        <form action="" method="post">
             <!--Información start cuenta-->
             <h4>Cuenta</h4>
             <div class="input_group">
                 <div class="input_box">
-                    <input type="text" placeholder="Nombre completo" required 
-                    class="name">
+                    <input type="text" placeholder="Nombre completo" required class="name">
                     <i class="fa fa-user icon"></i>
                 </div>
                 <div class="input_box">
-                    <input type="text" placeholder="Nombre en tarjeta" required 
-                    class="name">
+                    <input type="text" placeholder="Nombre en tarjeta" required class="name">
                     <i class="fa fa-user icon"></i>
                 </div>
+            </div>
+            <div class="input_group">
                 <div class="input_box">
-                    <input type="email" placeholder="Correo electronico" required 
-                    class="name">
+                    <input type="email" placeholder="Correo electronico" required class="name">
                     <i class="fa fa-envelope icon"></i>
                 </div>
+            </div>
+            <div class="input_group">
                 <div class="input_box">
-                    <input type="text" placeholder="Address" required 
-                    class="name">
-                    <i class="fa fa-map-marker icon"></i>
+                    <input type="text" placeholder="Localidad" required class="name">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
                 </div>
+            </div>
+            <div class="input_group">
                 <div class="input_box">
-                    <input type="text" placeholder="Ciudad" required 
-                    class="name">
+                    <input type="text" placeholder="Ciudad" required class="name">
                     <i class="fa fa-institution icon"></i>
                 </div>
             </div>
@@ -56,20 +57,11 @@
                     <input type="text" placeholder="YYYY" required class="dob">
                 </div>
                 <div class="input_box">
-                    <input type="radio" name="genero" required id="b1" checked>
-                    <label for="b1">Chico</label>
-                </div>
-                <div class="input_box">
-                    <input type="radio" name="genero" required id="b2" checked>
-                    <label for="b2">Chica</label>
-                </div>
-                <div class="input_box">
-                    <input type="radio" name="genero" required id="b3" checked>
-                    <label for="b3">Furro</label>
-                </div>
-                <div class="input_box">
-                    <input type="radio" name="genero" required id="b4" checked>
-                    <label for="b4">Furra</label>
+                    <h4>Género</h4>
+                    <input type="radio" name="gender" class="radio" id="b1" checked>
+                    <label for="b1">Hombre</label>
+                    <input type="radio" name="gender" class="radio" id="b2">
+                    <label for="b2">Mujer</label>
                 </div>
             </div>
             <!--DOB & Termina genero-->
@@ -80,56 +72,50 @@
             <div class="input_group">
                 <div class="input_box">
                     <h4>Detalles de pago</h4>
-                    <input type="radio" name="pagar" class="radio" 
-                    id="bc1" checked>
+                    <input type="radio" name="pagar" class="radio" id="bc1" checked>
                     <label for="bc1"></span>
-                        <i class="fa fa-cc-visa"></i>Tarjeta credito
-                    </span></label>
-                    <input type="radio" name="pagar" class="radio" 
-                    id="bc2" checked>
+                        <i class="fa fa-cc-visa"></i>Tarjeta credito</span></label>
+                    <input type="radio" name="pagar" class="radio" id="bc2">
                     <label for="bc2"></span>
-                        <i class="fa fa-cc-paypal"></i>Tarjeta credito
-                    </span></label>
+                        <i class="fa fa-cc-paypal"></i>Paypal</span></label>
                 </div>
             </div>
             <div class="input_group">
                 <div class="input_box">
-                    <input type="tel" class="name" placeholder="Número tarjeta credito 1111-2222-3333-4444" required>
+                    <input type="tel" name="" class="name" placeholder="Número tarjeta credito 1111-2222-3333-4444" required>
                     <i class="fa fa-credit-card icon"></i>
                 </div>
             </div>
             <div class="input_group">
                 <div class="input_box">
-                    <input type="tel" class="name" placeholder="Tarjeta CVC 632" required>
+                    <input type="tel" name="" class="name" placeholder="Tarjeta CVC 632" required>
                     <i class="fa fa-user icon"></i>
                 </div>
             </div>
             <div class="input_group">
                 <div class="input_box">
-                    <input type="number" class="name" placeholder="Exp mes" required>
-                    <i class="fa fa-calendar icon"></i>
+                    <input type="number" placeholder="Exp mes" required class="name">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
                 </div>
             </div>
             <div class="input_group">
                 <div class="input_box">
-                    <input type="number" class="name" placeholder="Exp mes" required>
-                    <i class="fa fa-calendar icon"></i>
+                    <input type="number" placeholder="Exp mes" required class="name">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
                 </div>
             </div>
-            <div class="input_group">
-                <div class="input_box">
-                    <input type="number" class="name" placeholder="Cantidad" required>
-                    <i class="fa fa-money icon"></i>
-                </div>
+            <div class="input_box">
+                    <input type="number" placeholder="Cantidad" required class="name">
+                    <i class="fa fa-money icon" aria-hidden="true"></i>
             </div>
+            <!--Detalles de pago termina-->
             <div class="input_group">
                 <div class="input_box">
                     <button type="submit">Paga ahora</button>
                 </div>
             </div>
             
-
-            <!--Detalles de pago termina-->
+        </form>
     </div>
 </body>
 
