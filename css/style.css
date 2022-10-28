@@ -916,6 +916,55 @@ footer .row {
   }
 }
 
+/* Footer */
+.footer {
+  padding: 7rem 1rem;
+  background-color: var(--green);
+}
+
+footer .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 99.6rem;
+  margin: 0 auto;
+}
+
+.footer .col {
+  flex-direction: column;
+  color: var(--white);
+  align-items: flex-start;
+}
+
+.footer .col:last-child {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.footer .col:last-child span {
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+  color: var(--white);
+}
+
+.footer .col a {
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  font-weight: 300;
+}
+
+.footer .col h4 {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 567px) {
+  footer .row {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+}
+
+
 /* Popup */
 .popup{
   position: fixed;
@@ -923,7 +972,7 @@ footer .row {
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(248, 242, 242, 0.5);
+  background-color: rgba(7, 7, 7, 0.836);
   z-index: 9999;
   transition: 0.3s;
   transform: scale(1);
@@ -941,6 +990,8 @@ footer .row {
   display: table;
   overflow: hidden;
   background-color: black;
+  border-style: solid;
+  border-color: orangered;
 }
 
 .popup-close{
@@ -951,7 +1002,7 @@ footer .row {
   top: 2rem;
   right: 2rem;
   padding: 0.5rem;
-  background-color: var(--orange);
+  background-color: orangered;
   border-radius: 50%;
   cursor: pointer;
   color: white;
@@ -999,7 +1050,7 @@ footer .row {
 }
 
 .right-content h1 span {
-  color: var(--orange);
+  color: orangered
 }
 
 .right-content p{
@@ -1014,7 +1065,7 @@ footer .row {
   text-indent: 1rem;
   margin-bottom: 1.6rem;
   border-radius: 3rem;
-  background-color: var(--orange);
+  background-color: orangered;
   color: white;
   font-size: 1.8rem;
   border: none;
@@ -1041,7 +1092,7 @@ footer .row {
 }
 
 .right-content a:hover{
-  background-color: var(--orange);
+  background-color: orangered;
   color: var(--black);
 }
 
