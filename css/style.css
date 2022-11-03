@@ -870,10 +870,10 @@ Hero Media Query
 /* Footer */
 .footer {
   padding: 7rem 1rem;
-  background-color: var(--rojo);
+  background-color: var(--green);
 }
 
-footer .row {
+.footer .row {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 99.6rem;
@@ -897,50 +897,7 @@ footer .row {
   color: var(--white);
 }
 
-.footer .col a {
-  color: var(--white);
-  font-size: 1.5rem;
-  padding: 0.5rem;
-  font-weight: 300;
-}
-
-.footer .col h4 {
-  margin-bottom: 1rem;
-}
-
-
-@media (max-width: 567px) {
-  footer .row {
-    grid-template-columns: 1fr;
-    row-gap: 3rem;
-  }
-}
-
-/* Footer */
-.footer {
-  padding: 7rem 1rem;
-  background-color: var(--green);
-}
-
-footer .row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 99.6rem;
-  margin: 0 auto;
-}
-
-.footer .col {
-  flex-direction: column;
-  color: var(--white);
-  align-items: flex-start;
-}
-
-.footer .col:last-child {
-  flex-direction: row;
-  justify-content: center;
-}
-
-.footer .col:last-child span {
+.footer .col:last-child a {
   font-size: 2.5rem;
   margin-right: 0.5rem;
   color: var(--white);
