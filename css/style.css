@@ -30,7 +30,8 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  background:linear-gradient(60deg, rgb(215, 53, 247),rgb(255, 155, 74), rgb(255, 155, 74), rgb(163, 21, 245), rgb(255, 155, 74));
+  background: url("http://falconmasters.com/demos/particulas/bg.jpg") no-repeat #000;
+  background-size: cover;
   color: var(--black);
   font-weight: 400;
   font-style: normal;
