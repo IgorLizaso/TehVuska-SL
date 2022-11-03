@@ -30,8 +30,8 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  background-image: linear-gradient(135deg, #d42000, #fa892c, #f3d631, #3cf145, #13ecda, #1c45f8, #9a4cf3, #ff7cee);
-  background-size: 500%;
+  background: url("https://i.pinimg.com/originals/a3/a1/64/a3a164037f2750bb3628325fc5b23dce.gif") no-repeat #000;
+  background-size: cover;
   animation: fanimado 10s infinite;
   color: var(--black);
   font-weight: 400;

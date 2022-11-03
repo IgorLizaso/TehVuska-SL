@@ -30,8 +30,9 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  background: url("http://falconmasters.com/demos/particulas/bg.jpg") no-repeat #000;
-  background-size: cover;
+  background-image: linear-gradient(135deg, #d42000, #fa892c, #f3d631, #3cf145, #13ecda, #1c45f8, #9a4cf3, #ff7cee);
+  background-size: 500%;
+  animation: fanimado 10s infinite;
   color: var(--black);
   font-weight: 400;
   font-style: normal;
