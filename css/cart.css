@@ -30,7 +30,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
-  background: url("https://i.pinimg.com/originals/a3/a1/64/a3a164037f2750bb3628325fc5b23dce.gif") no-repeat #000;
+  background: url("https://wallpapercave.com/wp/wp4861186.jpg") no-repeat #000;
   background-size: cover;
   animation: fanimado 10s infinite;
   color: var(--black);
@@ -106,6 +106,7 @@ Navigation
 .navigation {
     height: 6rem;
     line-height: 6rem;
+    background-color: var(--black)
   }
   
   .navigation h1{
@@ -139,12 +140,13 @@ Navigation
   }
   
   .nav-center .nav-link {
+    color: white;
     font-size: 1.8rem;
     padding: 1rem;
   }
   
   .nav-center .nav-link:hover {
-    color: var(--white);
+    color: yellow;
     border-style: solid;
     background-color: var(--black);
     border-color: var(--black);
@@ -165,7 +167,7 @@ Navigation
     cursor: pointer;
     font-size: 2.5rem;
     padding: 0 1rem;
-    color: #555;
+    color: white;
     position: relative;
   }
   
@@ -322,6 +324,8 @@ Navigation
     text-align: center;
     margin-bottom: 5rem;
     color: white;
+    background-color: var(--black);
+    padding: 40px;
   }
   
   .title h1 {
@@ -359,6 +363,7 @@ Navigation
     padding: 1rem;
     text-align: center;
     color: white;
+    background-color: var(--black);
   }
   
   .product-info span {
@@ -496,7 +501,7 @@ Navigation
 /* Footer */
 .footer {
     padding: 7rem 1rem;
-    background-color: var(--rojo);
+    background-color: var(--black);
   }
   
   footer .row {
