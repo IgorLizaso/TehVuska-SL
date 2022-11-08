@@ -6,3 +6,52 @@ body{
     height:100%;
     width:100%;
 } 
+
+html, body {
+    margin: 0;
+  }
+  .container {
+    margin: 5px;
+    width: calc(100% - 10px);
+    height: calc(100vh - 10px);
+    font-size: 1rem;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .container:before {
+    content:"";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+  }
+  .element {
+    display: inline-block;
+    max-width: 300px;
+    vertical-align: middle;
+    white-space: normal;
+  }
+
+  a {
+    color: rgb(29, 253, 77);
+    font-style: oblique;
+    font-size: 90px;
+    text-shadow: 0 0 10px rgb(252, 43, 28) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #fc3d3d , 0 0 70px #fc3d3d , 0 0 80px #fc3d3d , 0 0 100px #fc3d3d ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -webkit-text-stroke: 3px black;
+    color: transparent;
+
+  }
+
+  h1:hover {
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px  , 0 0 70px #e5ff00 , 0 0 80px #e5ff00 , 0 0 100px #e5ff00 ;
+    
+  }
+  p {
+    margin: 0 0 0.5rem;
+    color: white;
+    font-size: 30px;
+    font-style: italic;
+  }
