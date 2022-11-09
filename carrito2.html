@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./css/cart.css" />
+    <link rel="icon" href="/icon/indexicon.ico">
+    <title>TehVuska - Carrito</title>
+  </head>
+  <body id="particles-js">
+      <!-- Top Nav -->
+      <div class="top-nav">
+        <div class="container d-flex">
+          <p>Ordena o llamanos</p>
+          <ul class="d-flex">
+            <li><a href="#">Sobre nosotros</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="contactar.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="navigation">
+        <div class="nav-center container d-flex">
+        <a href="index.html" class="logo"><h1>TehVuska SL</h1></a>
+
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Web</a>
+            </li>
+            <li class="nav-item">
+              <a href="product.html" class="nav-link">Tienda</a>
+            </li>
+            </li>
+            <li class="nav-item">
+              <a href="contactar.html" class="nav-link">Contato</a>
+            </li>
+            <li class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </li>
+          </ul>
+
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
+        </div>
+      </div>
+
+    <div class="container cart">
+        <table>
+            <tr>
+                <th>Producto</th>
+                <th>Cantidad</th>
+                <th>Subtitulo</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="./images/bmw3.png" alt="">
+                        <div>
+                            <p>BMW Serie 2M Coupe</p>
+                            <br/>
+                            <a href="product.html">eliminar</a>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <input type="number" value="1" max="50" min="1" />
+                </td>
+                <td>$405.000</td>
+        </table>
+
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td><b>Subtotal</b></td>
+                    <td>$300.000</td>
+                </tr>
+                <tr>
+                    <td><b>Tax</b></td>
+                    <td>$105.000</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td>$405.000</td>
+                </tr>
+            </table>
+            <a href="login.html" class="checkout-btn">Procede para pagar</a>
+        </div>
+    </div>
+
+    <!--Related section-->
+    <section class="section new-arrival">
+      <div class="title">
+        <h1>Productos relacionados</h1>
+        <p>All the latest picked from designer of our store</p>
+      </div>
+
+      <div class="product-center">
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/detalles6.png" alt="" />
+            </a>
+            <span class="discount">20%</span>
+          </div>
+          <div class="product-info">
+            <span>BMW</span>
+            <a href="bmw5.html">BMW Challenger V1</a>
+            <h4><del>$700.000</del> $560.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/lambo3.png" alt="" />
+            </a>
+          </div>
+
+          <div class="product-info">
+            <span>LAMBORGHINI</span>
+            <a href="lambo3.html">Lamborghini Champion</a>
+            <h4>$800.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/lambo5.png" alt="" />
+            </a>
+            <span class="discount">Categoría A</span>
+          </div>
+          <div class="product-info">
+            <span>LAMBORGHINI</span>
+            <a href="lambo4.html">Lamborghini Veneno</a>
+            <h4>$1.000.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+        <div class="product-item">
+          <div class="overlay">
+            <a href="" class="product-thumb">
+              <img src="./images/lambo6.png" alt="" />
+            </a>
+          </div>
+          <div class="product-info">
+            <span>LAMBORGHINI</span>
+            <a href="lambo5.html">Lamborghini Aventador</a>
+            <h4>$900.000</h4>
+          </div>
+          <ul class="icons">
+            <li><i class="bx bx-heart"></i></li>
+            <li><i class="bx bx-search"></i></li>
+            <li><i class="bx bx-cart"></i></li>
+          </ul>
+        </div>
+
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <div class="row">
+          <div class="col d-flex">
+            <h4>INFORMACIÓN</h4>
+            <a href="">Sobre nosotros</a>
+            <a href="">Contáctanos</a>
+            <a href="">Terminos</a>
+            <a href="">Servicios de transporte</a>
+          </div>
+          <div class="col d-flex">
+            <h4>LINKS ÚTILES</h4>
+            <a href="">Tienda online</a>
+            <a href="">Servicios de cliente</a>
+            <a href="">Promociones</a>
+            <a href="">Top marcos</a>
+          </div>
+          <div class="col d-flex">
+            <span><i class="bx bxl-facebook-square"></i></span>
+            <span><i class="bx bxl-instagram-alt"></i></span>
+            <span><i class="bx bxl-github"></i></span>
+            <span><i class="bx bxl-twitter"></i></span>
+            <span><i class="bx bxl-pinterest"></i></span>
+          </div>
+        </div>
+      </footer>
+<script src="./js/index.js"></script>
+<script src="http://falconmasters.com/demos/particulas/particles.min.js"></script>
+<script src="http://falconmasters.com/demos/particulas/particulas.js"></script>
+</body>
+</html>
